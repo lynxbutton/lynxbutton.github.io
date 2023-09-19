@@ -24,8 +24,40 @@
             <main>
 
                 <p class = "flat-on-wrap">
-                    Blurb Here.
+                    XCube 2D is a simple game engine that has been developed using SDL 2.0 and C++. My subsystem extends the XCube engine to include an animation playback system which uses CSV files to display and play different animations on screen. On top of this it allows for different sprites to render at any frame rate that is equal to or lower than the frame rate of the game screen and stabilises these animations to create a smooth experience.
                 </p>
+                <p class = "flat-on-wrap">
+                    Each animation that is created by the user will need to have a specific CSV file which states all the necessary details of the animation in question. A CSV file is used within the subsystem to allow the user to manipulate their animations without changing the subsystem itself. It also allows for animation detail data to be easily changed when debugging an issue. The CSV file for each animation must contain the following data:
+                    <ol>
+                        <li>Animation Name.</li>
+                        <li>Frame Rate.</li>
+                        <li>Playback Time.</li>
+                        <li>Image Location.</li>
+                        <li>Number of sprites within each row & column.</li>
+                        <li>JSON file location, if needed.</li>
+                        <li>Sprite width & height.</li>
+                        <li>Scale width & height.</li>
+                        <li>Which way to flip the animation, if needed.</li>
+                        <li>Whether the animation is to be looped.</li>
+                        <li>All keyframes.</li>
+                    </ol>
+                </p>
+                <p class = "flat-on-wrap">
+                    Within this project, I further learned about SDL & C++ as the system encouraged me to learn about more specific features of SDL and C++, such as the difference between source and destination rects and the best ways to use both. It also helped to solidify my understanding of references and pointers. On top of this I gained a strong technical understanding of how animation is achieved within game engines as well as the many different ways these problems can be tackled even when creating simple animations and features.
+                </p>
+
+                <small class = "bibliography">
+                    <h4>3rd party assets used:</h4>
+				    <ul>
+					    <li>Awesomeduck (2019) Available at: <a href = "https://opengameart.org/content/racing-car-0">https://opengameart.org/content/racing-car-0</a> (Used for: Sprites)</li>
+					    <li>Kenney (2015) Available at: <a href = "https://opengameart.org/content/racing-pack">https://opengameart.org/content/racing-pack</a> (Used for: Sprites)</li>
+					    <li>Praew_p_1985814285  (No Date) Available at: <a href = "https://www.vecteezy.com/vector-art/1343818-green-lawn-grass-texture">https://www.vecteezy.com/vector-art/1343818-green-lawn-grass-texture</a> (Used for: Sprites)</li>
+					    <li>Spyros Zevelakis (2020) Available at: <a href = "https://www.fontsquirrel.com/fonts/alatsi">https://www.fontsquirrel.com/fonts/alatsi</a> (Used for: Font)</li>
+					    <li>Joseph Sardin (No Date) Available at: <a href = "https://bigsoundbank.com/detail-1286-car-on-a-road.html">https://bigsoundbank.com/detail-1286-car-on-a-road.html</a> (Used for: Sound Effects)</li>
+					    <li>Mixkit (No Date) Available at: <a href = "https://mixkit.co/free-sound-effects/car/">https://mixkit.co/free-sound-effects/car/</a> (Used for: Sound Effects)</li>
+					    <li>Shane Ivers (2019) Available at: <a href = "https://www.silvermansound.com/free-music/very-superbeep">https://www.silvermansound.com/free-music/very-superbeep</a> (Used for: Music)</li>
+				    </ul>
+                </small>
             </main>
 
             <aside>
