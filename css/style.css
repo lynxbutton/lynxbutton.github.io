@@ -1,0 +1,67 @@
+body{
+    /*Place gif here*/
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #091A34;
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGQxc3J5eXE2bXhyZzJ2c2tlMWdpeXZ6YWwyOWU2cnZxa2phMXA0eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/NzSUEgbTWB7TW/giphy.gif);
+    cursor: 0;
+    font-size: 100%;
+}
+
+.wrapper{
+    max-width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    background-color: #3F567A;
+}
+/* Wrapper for larger screens*/
+@media screen and (min-width: 50em){
+    .wrapper{
+        padding-right: 50px;
+	    padding-left: 50px;
+    }
+}
+
+/* NAVIGTAION ----------------------------------------------------------*/
+nav{
+    margin-top: .5em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    background-color: #2E405A;
+    border: .2em solid #DAC112;
+    outline: .5em solid #2E405A;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    border-radius: 25px;
+}
+nav li{
+    display: block;
+    margin: 0;
+}
+.navSmaller{
+    max-width: 16%;
+    padding-bottom: 1em;
+}
+nav img{
+    max-width: 20%;
+}
+
+/*navigation for larger screens*/
+@media screen and (min-width: 40em){
+    nav li{
+        display: inline;
+        padding: 2em 2em 2em 2em;
+    }
+    .navSmaller{
+        max-width: 6.5%;
+        padding-bottom: .5em;
+    }
+    nav img{
+        max-width: 8%;
+    }
+}
+
