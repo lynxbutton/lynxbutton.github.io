@@ -8,6 +8,25 @@ body{
     font-size: 100%;
 }
 
+/* LINKS ----------------------------------------------------------------*/
+
+a{
+    color: #DAC112;
+}
+
+a:active{
+    color: #DAC112;
+}
+
+a:hover{
+    color: #FAE76A;
+}
+
+a:visited{
+    color: #D2A11C;
+}
+
+/* WRAPPER ----------------------------------------------------------------*/
 .wrapper{
     max-width: 850px;
 	margin-right: auto;
@@ -15,12 +34,16 @@ body{
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
     background-color: #3F567A;
+    border: .1em solid #091A34;
+    outline: .5em solid #3F567A;
 }
 /* Wrapper for larger screens*/
 @media screen and (min-width: 50em){
     .wrapper{
         padding-right: 50px;
 	    padding-left: 50px;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 
@@ -30,7 +53,7 @@ nav{
     margin-bottom: 2em;
     border-radius: 25px;
     background-color: #2E405A;
-    border: .2em solid #DAC112;
+    border: .2em solid #ffcc00;
     outline: .5em solid #2E405A;
 }
 nav ul{
@@ -47,6 +70,8 @@ nav li{
     padding-bottom: 1em;
 }
 nav img{
+    opacity: 85%;
+    filter: sepia(50%);
     max-width: 20%;
 }
 
@@ -63,5 +88,13 @@ nav img{
     nav img{
         max-width: 8%;
     }
+}
+
+/* FLAT ON WRAP ----------------------------------------------------------*/
+
+.flat-on-wrap{
+    background-color: #374B6A;
+    padding: 1em 1em 1em 1em;
+    border-radius: 25px;
 }
 
