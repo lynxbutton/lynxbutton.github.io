@@ -8,6 +8,12 @@ body{
     font-size: 100%;
 }
 
+/* GENERAL ----------------------------------------------------------------*/
+
+ul{
+    list-style-type: square;
+}
+
 /* LINKS ----------------------------------------------------------------*/
 
 a{
@@ -70,8 +76,6 @@ nav li{
     padding-bottom: 1em;
 }
 nav img{
-    opacity: 85%;
-    filter: sepia(50%);
     max-width: 20%;
 }
 
@@ -94,7 +98,188 @@ nav img{
 
 .flat-on-wrap{
     background-color: #374B6A;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 2em 1em 2em;
     border-radius: 25px;
+    border: 2px solid #2E405A;
+    outline: .5em solid #374B6A;
 }
 
+.center{
+
+    text-align: center;
+}
+
+/* CARDS -------------------------------------------------------------------*/
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.card {
+display: flex;
+    
+}
+.card-content {
+    flex-direction: column;
+    width: 100%;
+    background-color: #2E405A;
+    border: .2em solid #ffcc00;
+    outline: .5em solid #2E405A;
+    border-radius: 25px;
+    margin: 1.25em 1.25em 0.3em 0;
+    padding: 1.5em;
+}
+  
+/*640 px - tablet portrait orientation - 2 columns*/
+@media screen and (min-width: 40em){
+    .card { width: 50%; }
+}
+
+.card h3{
+    text-align: center;
+    padding: 1em;
+    margin: 0 -1.5em;
+    border-bottom: .2em solid #ffcc00;
+}
+
+/* TAGS ---------------------------------------------------------------------*/
+.tags{
+    list-style: none;
+    text-align: center;
+    margin-left: -2.5em;
+    width: 100%
+}
+
+.tags li{
+    display: inline-block;
+    padding: .5em;
+    margin: .3em;
+    border-radius: 25%;
+    background-color: #FFD93D;
+    border: 1px solid #091A34;
+    outline: 2px solid #ffcc00;
+    color:#2E405A;
+}
+
+/* BADGES -------------------------------------------------------------------*/
+
+  .inline-badges {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 50em){
+    .inline-badges{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* BREAK -------------------------------------------------------------------*/
+
+.break img{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 90%;
+    float: left;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 50em){
+    .break img{
+        margin-left: 29%;
+        width: 40%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        float: left;
+        text-align: center;
+      }
+}
+
+/* FOOTER -------------------------------------------------------------------*/
+
+footer{
+    text-align: center;
+}
+
+/* ASIDE -------------------------------------------------------------------*/
+
+aside{
+    text-align: center;
+    border-radius: 25px;
+    background-color: #374B6A;
+    border: .1em solid #2E405A;
+    outline: .3em solid #374B6A;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+aside ul{
+    list-style: none;
+}
+aside li{
+    display: inline;
+}
+
+aside img{
+    width: 25%;
+    padding: .5em;
+}
+
+aside h4{
+    padding: .2em;
+    margin: 0 -.4em;
+    border-bottom: .1em solid #2E405A;
+}
+
+@media screen and (min-width: 50em){
+    aside{
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    
+    aside ul{
+        list-style: none;
+    }
+    aside li{
+        display: inline;
+    }
+    
+    aside img{
+        width: 10%;
+        padding: 0 1em 0 1em;
+    }
+}
+
+/* REFERENCES -------------------------------------------------------------------*/
+
+.bibliography{
+    margin: 1em;
+    padding: .8em;
+    border-radius: 10%;
+    border: 1px solid #091A34;
+}
+
+.bibliography h4{
+    text-align: center;
+    font-size: small;
+}
+
+/* LINK ICONS -------------------------------------------------------------------*/
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.coverup{
+    color:#2E405A;
+}
