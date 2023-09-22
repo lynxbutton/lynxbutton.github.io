@@ -9,7 +9,7 @@
 
 		<link href="css/normalize.css" rel="stylesheet"/>
 		<link href="css/style.css" rel="stylesheet">
-		<!--<script src="scripts/main.js"></script> -->
+
     </head>
     <body>
         <div class="wrapper">
@@ -29,7 +29,11 @@
                 <p class = "flat-on-wrap">
                     XCube 2D is a simple game engine that has been developed using SDL 2.0 and C++. My subsystem extends the XCube engine to include an animation playback system which uses CSV files to display and play different animations on screen. On top of this it allows for different sprites to render at any frame rate that is equal to or lower than the frame rate of the game screen and stabilises these animations to create a smooth experience.
                 </p>
-                <p class = "flat-on-wrap">
+
+                <!-- PREVIEW HERE IN CARDS-->
+
+                <div class = "flat-on-wrap">
+                <p>
                     Each animation that is created by the user will need to have a specific CSV file which states all the necessary details of the animation in question. A CSV file is used within the subsystem to allow the user to manipulate their animations without changing the subsystem itself. It also allows for animation detail data to be easily changed when debugging an issue. The CSV file for each animation must contain the following data:
                     <ol>
                         <li>Animation Name.</li>
@@ -45,9 +49,12 @@
                         <li>All keyframes.</li>
                     </ol>
                 </p>
-                <p class = "flat-on-wrap">
+                <p>
                     Within this project, I further learned about SDL & C++ as the system encouraged me to learn about more specific features of SDL and C++, such as the difference between source and destination rects and the best ways to use both. It also helped to solidify my understanding of references and pointers. On top of this I gained a strong technical understanding of how animation is achieved within game engines as well as the many different ways these problems can be tackled even when creating simple animations and features.
                 </p>
+            </div>
+
+            <a href="https://github.com/lynxbutton/CI517-Engine-Fundamentals" target="_blank" rel="noopener noreferrer"><img class = "widget" src="assets/images/CI517-Engine-Fundamentals.png" width="460px"></a> 
 
                 <div class = "bibliography">
                 <small>

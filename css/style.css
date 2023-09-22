@@ -104,6 +104,10 @@ nav img{
     outline: .5em solid #374B6A;
 }
 
+.flat-on-wrap h4{
+    margin-bottom: 0;
+}
+
 .center{
 
     text-align: center;
@@ -243,14 +247,6 @@ aside h4{
         margin-bottom: 2em;
         margin-top: 2em;
     }
-    
-    aside ul{
-        list-style: none;
-    }
-    aside li{
-        display: inline;
-    }
-    
     aside img{
         width: 10%;
         padding: 0 1em 0 1em;
@@ -282,4 +278,67 @@ aside h4{
 
 .coverup{
     color:#2E405A;
+}
+
+/* CV IFRAME -------------------------------------------------------------------*/
+
+.cv{
+    width: 100%;
+    margin-top: 2em;
+}
+
+/* HOMEWARD IFRAME -------------------------------------------------------------------*/
+
+iframe {
+    border-radius: 5%;
+    background-color: #2E405A;
+    border: .2em solid #ffcc00;
+    outline: .5em solid #2E405A;
+
+	margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+	display: block;
+}
+
+@media screen and (max-width: 55em){
+    .Homeward iframe{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 55em){
+    .Homeward-widget{
+        display: none;
+    }
+}
+
+/* WIDGETS -------------------------------------------------------------------------------*/
+
+.widget{
+    border-radius: 5%;
+    background-color: #2E405A;
+    border: .2em solid #ffcc00;
+    outline: .5em solid #2E405A;
+
+	margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+	display: block;
+}
+
+@media screen and (max-width: 40em){
+    .full-widget{
+        display: none;
+    }
+
+    .widget{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 40em){
+    .mini-widget{
+        display: none;
+    }
 }

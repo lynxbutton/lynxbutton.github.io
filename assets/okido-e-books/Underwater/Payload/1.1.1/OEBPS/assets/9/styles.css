@@ -1,0 +1,659 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	pointer-events: none;
+}
+
+div#obj1036 {
+position: absolute;
+overflow: hidden;
+top: 231px;
+left: 1492px;
+width: 100px;
+height: 100px;
+opacity: 1;
+z-index: 19;
+display:none;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+div#obj983 {
+position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 1024px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj983_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1366px;
+	height: 1024px;
+}
+div#obj988 {
+position: absolute;
+overflow: hidden;
+top: 250px;
+left: 85px;
+width: 1555px;
+height: 986px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj988_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1555px;
+	height: 986px;
+}
+div#obj1104 {
+position: absolute;
+overflow: hidden;
+top: 701px;
+left: 428px;
+width: 1366px;
+height: 758px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1104_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1366px;
+	height: 758px;
+}
+div#obj990 {
+position: absolute;
+overflow: hidden;
+top: 601px;
+left: 730px;
+width: 951px;
+height: 820px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+
+img#obj990_img {
+	position: absolute;
+	left: 0px;
+	top: 72px;
+	width: 951px;
+	height: 676px;
+	transform-origin: 50% 50%;
+	transform: rotate(0deg);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: rotate(0deg);
+}
+div#obj992 {
+position: absolute;
+overflow: hidden;
+top: 291px;
+left: -322px;
+width: 848px;
+height: 550px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj992_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 848px;
+	height: 550px;
+}
+div#obj994 {
+position: absolute;
+overflow: hidden;
+top: 719px;
+left: 1035px;
+width: 412px;
+height: 227px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj994_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 412px;
+	height: 227px;
+}
+div#obj1095 {
+position: absolute;
+overflow: hidden;
+top: 843px;
+left: 428px;
+width: 1366px;
+height: 758px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1095_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1366px;
+	height: 758px;
+}
+div#obj996 {
+position: absolute;
+overflow: hidden;
+top: 598px;
+left: 189px;
+width: 332px;
+height: 171px;
+opacity: 1;
+z-index: 7;
+display:block;
+pointer-events: none;
+-webkit-transform: rotate(16deg);
+-moz-transform: rotate(16deg);
+transform: rotate(16deg);
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj996_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 332px;
+	height: 171px;
+}
+div#obj998 {
+position: absolute;
+overflow: hidden;
+top: 539px;
+left: -440px;
+width: 832px;
+height: 188px;
+opacity: 1;
+z-index: 8;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj998_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 832px;
+	height: 188px;
+}
+div#obj1000 {
+position: absolute;
+overflow: hidden;
+top: 585px;
+left: -238px;
+width: 1076px;
+height: 422px;
+opacity: 1;
+z-index: 9;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1000_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1076px;
+	height: 422px;
+}
+div#obj1002 {
+position: absolute;
+overflow: hidden;
+top: 832px;
+left: -334px;
+width: 1423px;
+height: 482px;
+opacity: 1;
+z-index: 10;
+display:block;
+pointer-events: none;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+transform: rotate(180deg);
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1002_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1423px;
+	height: 482px;
+}
+div#obj1004 {
+position: absolute;
+overflow: hidden;
+top: 838px;
+left: 503px;
+width: 564px;
+height: 317px;
+opacity: 1;
+z-index: 11;
+display:block;
+pointer-events: none;
+-webkit-transform: rotate(38deg);
+-moz-transform: rotate(38deg);
+transform: rotate(38deg);
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1004_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 564px;
+	height: 317px;
+}
+div#obj1006 {
+position: absolute;
+overflow: hidden;
+top: 648px;
+left: 520px;
+width: 269px;
+height: 348px;
+opacity: 1;
+z-index: 12;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1006_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 269px;
+	height: 348px;
+}
+div#obj1010 {
+position: absolute;
+overflow: hidden;
+top: -38px;
+left: 0px;
+width: 1100px;
+height: 230px;
+opacity: 1;
+z-index: 13;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1010_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1100px;
+	height: 230px;
+}
+div#obj1012 {
+position: absolute;
+overflow: hidden;
+top: 750px;
+left: 820px;
+width: 223px;
+height: 223px;
+opacity: 1;
+z-index: 14;
+display:block;
+pointer-events: auto;
+-webkit-transform: rotate(38deg);
+-moz-transform: rotate(38deg);
+transform: rotate(38deg);
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1012_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 223px;
+	height: 223px;
+}
+div#obj1016 {
+position: absolute;
+overflow: hidden;
+top: -187px;
+left: 187px;
+width: 548px;
+height: 715px;
+opacity: 1;
+z-index: 15;
+display:block;
+pointer-events: none;
+-webkit-transform: rotate(-15deg);
+-moz-transform: rotate(-15deg);
+transform: rotate(-15deg);
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+
+img#obj1016_img {
+	position: absolute;
+	left: 21px;
+	top: 0px;
+	width: 505px;
+	height: 715px;
+	transform-origin: 50% 50%;
+	transform: rotate(0deg);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: rotate(0deg);
+}
+div#obj1024 {
+position: absolute;
+overflow: hidden;
+top: 601px;
+left: 361px;
+width: 208px;
+height: 174px;
+opacity: 1;
+z-index: 16;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1024_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 208px;
+	height: 174px;
+}
+div#obj1143 {
+position: absolute;
+overflow: hidden;
+top: 512px;
+left: 744px;
+width: 74px;
+height: 119px;
+opacity: 1;
+z-index: 21;
+display:none;
+pointer-events: none;
+-webkit-transform: rotate(-172.309deg);
+-moz-transform: rotate(-172.309deg);
+transform: rotate(-172.309deg);
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1143_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 74px;
+	height: 119px;
+}
+
+div#obj1034 {
+position: absolute;
+overflow: hidden;
+top: 423px;
+left: 401px;
+width: 1035px;
+height: 162px;
+opacity: 1;
+z-index: 18;
+display:none;
+pointer-events: auto;
+
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+font-family: "Quicksand-Medium";
+}
+
+div#obj1034_content {
+
+}
+
+
+div#obj1081 {
+position: absolute;
+overflow: hidden;
+top: 129px;
+left: 1122px;
+width: 204px;
+height: 162px;
+opacity: 1;
+z-index: 20;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+
+div#obj1081 .translated {
+	position: absolute;
+	top: 0px;
+	left: 204px;
+	width: 100%;
+	height: 100%;
+}
+div#obj1032 {
+position: absolute;
+overflow: hidden;
+top: 401px;
+left: 378px;
+width: 896px;
+height: 132px;
+opacity: 1;
+z-index: 17;
+display:none;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+background-image: none;
+border-color: #D4EFFC;
+border-width: 1px;
+border-style: solid;
+border-radius: 33px;
+-moz-border-radius: 33px;
+-webkit-border-radius: 33px;
+background-color: #D4EFFC;
+background-repeat: repeat;
+}
+
+audio#obj5437 {
+position: absolute;
+overflow: hidden;
+top: 88px;
+left: -314px;
+width: 204px;
+height: 192px;
+opacity: 1;
+z-index: 22;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+
+
+
+
+
+
+body {
+font-family: "FuturaStd-Bold";
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+/* Start of default CSS Styles */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .67em; }
+.flipHor{
+    transform: scaleX(-1);
+}
+/* End of default CSS Styles */
+.SCPage {
+background-color: #FFFFFF
+}

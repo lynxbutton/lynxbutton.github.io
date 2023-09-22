@@ -1,0 +1,1 @@
+PubViewer.Document.Settings = {"appIdentifier":"EBDC60E998D5E6449241268CB9F6739B","appName":"MGTO Underwater Story","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":false,"restoreLatestPage":true};
