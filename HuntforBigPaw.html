@@ -8,8 +8,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 		<link href="css/normalize.css" rel="stylesheet"/>
+        <link href="css/simple-slideshow-styles.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<!--<script src="scripts/main.js"></script> -->
+		<script src="js/better-simple-slideshow.min.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -38,6 +39,39 @@
             </div>
 
                 <!-- PREVIEW HERE-->
+                <ol class = "card-list">
+                    <!-- Okido Interactive E-books-->
+                    <li class = "card">
+                        <div class = "card-content">
+                            <div class="bss-slides num1" tabindex="1">
+                                <figure>
+                                    <img src="assets/screenshots/HBP1.png" width="78%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/HBP2.png" width="78%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/HBP3.png" width="78%"/> 
+                                </figure>
+                            </div> <!-- // bss-slides -->
+                            <script>
+
+                                var opts = {
+                                    auto : false,
+                                    fullScreen : false,
+                                    swipe : false };
+                                makeBSS('.num1', opts);
+                            </script>
+                        </div>
+                    </li>
+                    <li class = "card">
+                        <div class = "card-content">
+                            <div class="video-container">
+								<iframe width="560" height="315" src=https://www.youtube.com/embed/ddETdFJDbCs allowfullscreen></iframe>
+							</div>
+                        </div>
+                    </li>
+                </ol>
 
                 <p class = "flat-on-wrap">
                     This was an independent university project for my second year when studying Unreal engine. I focused heavily upon story, character design & modelling as well as strong subsystem design and implementation with the game’s sniffing mechanic. This mechanic gives players the option for their dog to sniff the air and locate objects that are close by. They will then be able to navigate to these objects and dig them up. These objects could be used for story progression, healing, or puzzles.

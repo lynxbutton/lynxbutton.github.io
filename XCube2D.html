@@ -8,7 +8,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 		<link href="css/normalize.css" rel="stylesheet"/>
+        <link href="css/simple-slideshow-styles.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<script src="js/better-simple-slideshow.min.js"></script>
 
     </head>
     <body>
@@ -28,27 +30,40 @@
                 <h2 class = "center">XCube2D Animation Subsystem</h2>
                 <p class = "flat-on-wrap">
                     XCube 2D is a simple game engine that has been developed using SDL 2.0 and C++. My subsystem extends the XCube engine to include an animation playback system which uses CSV files to display and play different animations on screen. On top of this it allows for different sprites to render at any frame rate that is equal to or lower than the frame rate of the game screen and stabilises these animations to create a smooth experience.
+                    <br/>
+                    Each animation that is created by the user will need to have a specific CSV file which states all the necessary details of the animation in question. A CSV file is used within the subsystem to allow the user to manipulate their animations without changing the subsystem itself. It also allows for animation detail data to be easily changed when debugging an issue. The CSV file for each animation must contain the following data:
                 </p>
 
                 <!-- PREVIEW HERE IN CARDS-->
+                <ol class = "card-list">
+                    <!-- Okido Interactive E-books-->
+                    <li class = "card">
+                        <div class = "card-content">
+                            <ol>
+                                <li>Animation Name.</li>
+                                <li>Frame Rate.</li>
+                                <li>Playback Time.</li>
+                                <li>Image Location.</li>
+                                <li>Number of sprites within each row & column.</li>
+                                <li>JSON file location, if needed.</li>
+                                <li>Sprite width & height.</li>
+                                <li>Scale width & height.</li>
+                                <li>Which way to flip the animation, if needed.</li>
+                                <li>Whether the animation is to be looped.</li>
+                                <li>All keyframes.</li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li class = "card">
+                        <div class = "card-content">
+                            <div class="video-container">
+								<iframe width="560" height="315" src=https://www.youtube.com/embed/tPABEFc4tds allowfullscreen></iframe>
+							</div>
+                        </div>
+                    </li>
+                </ol>
 
                 <div class = "flat-on-wrap">
-                <p>
-                    Each animation that is created by the user will need to have a specific CSV file which states all the necessary details of the animation in question. A CSV file is used within the subsystem to allow the user to manipulate their animations without changing the subsystem itself. It also allows for animation detail data to be easily changed when debugging an issue. The CSV file for each animation must contain the following data:
-                    <ol>
-                        <li>Animation Name.</li>
-                        <li>Frame Rate.</li>
-                        <li>Playback Time.</li>
-                        <li>Image Location.</li>
-                        <li>Number of sprites within each row & column.</li>
-                        <li>JSON file location, if needed.</li>
-                        <li>Sprite width & height.</li>
-                        <li>Scale width & height.</li>
-                        <li>Which way to flip the animation, if needed.</li>
-                        <li>Whether the animation is to be looped.</li>
-                        <li>All keyframes.</li>
-                    </ol>
-                </p>
                 <p>
                     Within this project, I further learned about SDL & C++ as the system encouraged me to learn about more specific features of SDL and C++, such as the difference between source and destination rects and the best ways to use both. It also helped to solidify my understanding of references and pointers. On top of this I gained a strong technical understanding of how animation is achieved within game engines as well as the many different ways these problems can be tackled even when creating simple animations and features.
                 </p>

@@ -5,9 +5,11 @@
         <title>Lynx Button's Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/images/home_1946488.png">
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<link href="css/normalize.css" rel="stylesheet"/>
+		
+        <link href="css/normalize.css" rel="stylesheet"/>
+        <link href="css/simple-slideshow-styles.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<!--<script src="scripts/main.js"></script> -->
+		<script src="js/better-simple-slideshow.min.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -44,6 +46,48 @@
 								<li>JQuery</li>
 								<li>Brighton Zoo</li>
 							</ul>
+
+                            <div class="bss-slides num1" tabindex="1">
+                                <figure>
+                                    <img src="assets/screenshots/u1.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/u5.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/u6.png" width="75%"/> 
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/u7.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/u9.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/n1.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/n2.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/n4.png" width="75%"/> 
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/n7.png" width="75%" />
+                                </figure>
+                                <figure>
+                                    <img src="assets/screenshots/n8.png" width="75%" />
+                                </figure>
+                            </div> <!-- // bss-slides -->
+                            <script>
+
+                                var opts = {
+                                    auto : false,
+                                    fullScreen : false,
+                                    swipe : false };
+                                makeBSS('.num1', opts);
+                            </script>
+
                             <p>
                                 Within my internship at Brighton Zoo, my main role was to design and develop interactive e-books from Okido’s educational comics. Throughout my time there I developed two e-books: Underwater & Numbers using Pubcoder, JavaScript & jQuery. These books have been made available to their audience through the World of Okido app. Throughout creating these projects I carefully designed and implemented interactions which thematically fit the base comic and the theme to create the most enjoyable and fun experience for children. I also furthered my skills in web development through these projects, though I focused on improving my skills within JavaScript and jQuery.
                             </p>
@@ -68,6 +112,11 @@
 								<li>2D</li>
 								<li>Game Engine</li>
 							</ul>
+
+                            <div class="video-container">
+                                <iframe width="560" height="315" src=https://www.youtube.com/embed/tPABEFc4tds allowfullscreen></iframe>
+                            </div>
+                            
                             <p>
                                 As an independent second-year university project, I extended XCube 2D engine, a simple engine developed in SDL 2.0 & C++, to include an animation playback subsystem which uses CSV files to display and play different animations on screen. Ontop of this it allows for different sprites to render at any frame rate that is equal to or lower than the frame rate of the game screen and stabilises these animations to create a smooth experience. Within this project, I further learned about SDL & C++ and gained a strong technical understanding of how animation is achieved within game engines.
                             </p>
@@ -95,6 +144,10 @@
                                 <li>Platformer</li>
                                 <li>Art</li>
                             </ul>
+                            <div class="video-container">
+								<iframe width="560" height="315" src=https://www.youtube.com/embed/DWg3-nvq57M allowfullscreen></iframe>
+							</div>
+
                             <p>
                                 Homeward is a 2D, point and click, puzzle adventure game where the player assists a child’s favourite doll to return to a place they can always be found again in the child’s home. Each day the doll’s forgetful child leaves them around the house to be tripped over by their mum or torn apart by their dog! It’s your job to help them clean up and get back to safety! The game is split into three levels with each level increasing in difficulty as the player goes along. This was an independent university project for my second year when studying Phaser and JavaScript. I focused heavily upon character design, pixel art illustration & programming within this project.
                             </p>
@@ -120,6 +173,10 @@
                                 <li>Platformer</li>
                                 <li>Modelling</li>
                             </ul>
+
+                            <div class="video-container">
+								<iframe width="560" height="315" src=https://www.youtube.com/embed/ddETdFJDbCs allowfullscreen></iframe>
+							</div>
                             <p>
                                 The Hunt for Big Paw is a puzzle adventure game created within Unreal Engine with the use of Blueprints. The game follows Bone Retriever, a local archaeologist and zoologist, and Pointer, a renown hunter, on their investigation into the recent sighting of Big Paw. Throughout the game the player switches between both Bone Retriever and Pointer while investigating areas for clues about Big Paw and the hidden civilisation that it lives in. This was an independent university project for my second year when studying Unreal engine. I focused heavily upon story and character design as well as strong subsystem design and implementation.
                             </p>
